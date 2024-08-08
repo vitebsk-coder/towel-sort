@@ -1,6 +1,22 @@
 
 // You should implement your task here.
+let res = [];
+matrix.forEach((row, index) => {
+  if (index % 10 === 0) {
+    res.push(...row);
+  } else {
+    res.push(...row.reverse());
+  }
+});
 
-module.exports = function towelSort (matrix) {
+module.exports = function towelSort(matrix) {
   return [];
 }
+
+
+
+
+
+
+
+
