@@ -1,8 +1,9 @@
 
 // You should implement your task here.
+
 let res = [];
 matrix.forEach((row, index) => {
-  if (index % 10 === 0) {
+  if (index % 2 === 0) {
     res.push(...row);
   } else {
     res.push(...row.reverse());
